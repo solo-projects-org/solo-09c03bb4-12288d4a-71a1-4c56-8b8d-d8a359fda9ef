@@ -1,10 +1,10 @@
 services:
-  lineage-web:
+  masking-web:
     build:
       context: ./app
       dockerfile: Dockerfile
-    image: clearing-lineage-web:latest
-    container_name: clearing-lineage-web
+    image: clearing-masking-web:latest
+    container_name: clearing-masking-web
     ports:
       - "8000:8000"
     restart: unless-stopped
